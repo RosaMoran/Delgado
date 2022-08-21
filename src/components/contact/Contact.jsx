@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './contact.css';
 import { MdOutlineMailOutline } from 'react-icons/md';
 import { SiMessenger, SiWhatsapp } from 'react-icons/si';
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
-// import {Alert, AlertTitle, Stack} from '@mui/material';
+import {Alert, AlertTitle, Stack} from '@mui/material';
 
 
 const Contact = () => {
+
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -55,14 +57,14 @@ const Contact = () => {
             <input type="email" name="user_email" placeholder='You Email' />
             <textarea name="message"  rows="7" placeholder='Your Message'></textarea>
             <button type='submit' className='btn btn-primary'>Send me</button>
-            
-          </form>
-          {/* <Stack>
+             <Stack>
             <Alert severity='success'>
               <AlertTitle>Success</AlertTitle>
               Your message was sent it to Rosa - <strong>check it out!</strong>
             </Alert>
-          </Stack> */}
+          </Stack>
+          </form>
+         
         </div>
         <form action=""></form>
       </div>
