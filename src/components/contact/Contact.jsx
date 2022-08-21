@@ -4,22 +4,22 @@ import { MdOutlineMailOutline } from 'react-icons/md';
 import { SiMessenger, SiWhatsapp } from 'react-icons/si';
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
+// import {Alert, AlertTitle, Stack} from '@mui/material';
 
 
 const Contact = () => {
-
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-    e.target.reset();
 
-    emailjs.sendForm('service_2ns8exe', 'template_pr04j8s', form.current, 'X9qdx3dF5xpIs0iAV')
+    emailjs.sendForm('service_eupmdt7', 'template_ito1gwl', form.current, 'X9qdx3dF5xpIs0iAV')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
-      })
+      });
+      e.target.reset();
     }
     return (
     <section id="contact">
@@ -50,12 +50,19 @@ const Contact = () => {
         </div>
         {/* END OF OPTIONS */}
         <div>
-          <form ref={form} onSubmit={sendEmail}>
-            <input type="text" name='name' placeholder='Your Full Name'/>
-            <input type="email" name="email" placeholder='You Email' />
+        <form ref={form} onSubmit={sendEmail}>
+            <input type="text" name="user_name" placeholder='Your Full Name'/>
+            <input type="email" name="user_email" placeholder='You Email' />
             <textarea name="message"  rows="7" placeholder='Your Message'></textarea>
             <button type='submit' className='btn btn-primary'>Send me</button>
+            
           </form>
+          {/* <Stack>
+            <Alert severity='success'>
+              <AlertTitle>Success</AlertTitle>
+              Your message was sent it to Rosa - <strong>check it out!</strong>
+            </Alert>
+          </Stack> */}
         </div>
         <form action=""></form>
       </div>

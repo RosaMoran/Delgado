@@ -14,9 +14,41 @@
     -webkit-box-shadow: 4px 5px 10px var(--color-primary);
 }
 
+.letros1{
+    text-transform: uppercase;
+    background-image: linear-gradient(
+      -225deg,
+      #36dffc 0%,
+      #74ccff 29%,
+      #ff1362 67%,
+      #f7f24a 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 300% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+        font-size: 14px;
+}
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+
+
+
+
 .about__me-image{
     border-radius: 2rem;
     width: 95%;
+    height: 93%;
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);

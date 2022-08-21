@@ -16,8 +16,8 @@ import 'swiper/css/pagination';
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      <h5>Review from clients</h5>
-      <h2>Testimonials</h2>
+      <h5>Review from work and personal</h5>
+      <h2>References</h2>
       <Swiper className="container testimonials__container" 
       modules={[Navigation, Pagination]}
       spaceBetween={40}

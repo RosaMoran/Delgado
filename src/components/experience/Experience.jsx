@@ -80,26 +80,24 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
               <h4>MySQL <SiMysql className="details-icon"/></h4>
-              <small className="text-light">Experienced</small>
+              <small className="text-light">Basic</small>
               </div>
              
             </article>
-            <article className="experience__details">
+            {/* <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
               <h4>PHP <FaPhp className="details-icon"/></h4>
               <small className="text-light">Experienced</small>
               </div>
-              
-            </article>
-            <article className="experience__details">
+            </article> */}
+            {/* <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
               <h4>Python <FaPython className="details-icon"/></h4>
               <small className="text-light">Experienced</small>
               </div>
-              
-            </article>
+            </article> */}
           </div>
         </div>
       </div>
