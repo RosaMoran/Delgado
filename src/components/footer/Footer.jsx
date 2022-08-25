@@ -3,12 +3,13 @@ import React from 'react'
 import './footer.css'
 import { BsLinkedin } from 'react-icons/bs';
 import { FaGithub } from 'react-icons/fa';
+import { AiOutlineTwitter } from 'react-icons/ai';
 
 const Footer = () => {
   return (
     <section id="footer">
       <footer>
-        <a href="#" className='footer__logo'>Rosa Moran Delgado</a>
+        <a href="#" className='footer__logo'>Rosa Moran</a>
         <ul className="permalinks">
           <li><a href="#">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -21,6 +22,7 @@ const Footer = () => {
         </ul>
         <div className="footer__socials">
         <a href="https://www.linkedin.com/in/rosa-moran-a2b9a1151" target="_blank" rel="noreferrer"><BsLinkedin/></a>
+        <a href="https://twitter.com/RosaMor28853822" target="_blank" rel="noreferrer"><AiOutlineTwitter/></a>
         <a href="https://github.com/RosaMoran?tab=repositories" target="_blank "><FaGithub/></a>
         </div>
         <div className="footer__copyright">

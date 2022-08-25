@@ -38,14 +38,17 @@ const About = () => {
         
         <p>Rosa is a girl who lives in Antwerpen, Belgium. She's from La Libertad, El Salvador a small country in Central-America but with big dreams.
         </p>
-        <p>When She was in University. She coordinated a team of around 70 people in her class for a competition. Her colleagues chose her for
-          that challenge and she decided to take the opportunity to prove to herself and her team that she can make it possible and 
-          she did it not just once but twice. That was a challenge because her jury was a professor who is important and recognized at her University for his work and research.
+        <p>When She was in University. She coordinated a team of around 70 people in her class for a competition. The competition was about
+          reading a book about Marketing entitled "The Black Book of Marketing". The jury would qualify the criteria such as: better leadership, 
+          coordination, creativity, handling of the topic, better answers to precise questions, among others.
+          Her colleagues chose her for that challenge and she decided to take the opportunity to probe to herself and her team that she can make it possible and with her team she made it. That was a challenge because her jury was a professor named Carlos Rolando Barrios who is important and recognized at her University for his work and research.
           </p>
-          <p className='letros'>Since she lives in Belgium. She decides to resume one of her dreams with computers. She decided to take a web developer course
-            in Hack Your Future Belgium because she was always curious about the computer and although it was not easy at all 
-            because there is a lot of content and sometimes she did not know where to start so she decided to start with: 
-           <span className='letros1'> let name = "Hello this is Rosa, it's a pleasure"; console.log(name);</span>
+          <p className='letros'>Since she lives in Belgium. She decided to take a web developer course in Hack Your Future Belgium because 
+          she was always curious about computer software.
+          That was a great challenge because after studying a marketing-oriented profession, now she would challenge an area of 
+          ​computer science where the months would pass and the love for learning to program would increase and 
+          where she would realize that she was in love with this area, so she pushed herself to successfully finish her course 
+          and be certified as a web programmer at Hack Your Future Belgium.
           </p>
           <p>
             Rosa is a girl with a lot of passion, perseverance with strategic thinking and who faithfully believes that 

@@ -15,15 +15,15 @@ header{
     padding-bottom: 0rem;
     grid-column: 1;
     grid-row: 1;
-    z-index: 1;
-    font-size: 4rem;
+    z-index: 2;
+    font-size: 3rem;
     text-transform: uppercase;
     animation: glow 2s ease-in-out infinite alternate;
     text-align: center;
 }
 @keyframes glow {
     from {
-      text-shadow: 1px 1px 30px #2d9da9;
+      text-shadow: 1px 1px 80px #2d9da9;
     }
     to {
       text-shadow: 0 0 30px #34b3c1, 0 0 10px #4dbbc7;

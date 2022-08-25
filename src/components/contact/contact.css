@@ -11,6 +11,14 @@
     gap: 1.2rem;
 }
 
+.scroll__up{
+    position: absolute;
+    right: 9rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
 .contact__option{
     background: var(--color-bg-variant);
     padding: 1.2rem;
