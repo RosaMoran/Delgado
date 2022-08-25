@@ -46,7 +46,7 @@ const About = () => {
           <p className='letros'>Since she lives in Belgium. She decided to take a web developer course in Hack Your Future Belgium because 
           she was always curious about computer software.
           That was a great challenge because after studying a marketing-oriented profession, now she would challenge an area of 
-          ​computer science where the months would pass and the love for learning to program would increase and 
+          computer science where the months would pass and the love for learning to program would increase and 
           where she would realize that she was in love with this area, so she pushed herself to successfully finish her course 
           and be certified as a web programmer at Hack Your Future Belgium.
           </p>
