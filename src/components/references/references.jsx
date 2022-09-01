@@ -1,4 +1,4 @@
-import './testimonials.css';
+import './references.css';
 import dataTestimonials from '../../data/dataTestimonials';
 // import Swiper core and required modules
 import { Navigation, Pagination} from 'swiper';
