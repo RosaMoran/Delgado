@@ -1,5 +1,6 @@
 import './references.css';
 import dataTestimonials from '../../data/dataTestimonials';
+import {BsLinkedin }from 'react-icons/bs'
 // import Swiper core and required modules
 import { Navigation, Pagination} from 'swiper';
 
@@ -37,6 +38,7 @@ const Testimonials = () => {
               <div>
                 <h5 className="client__name">{item.name}</h5>
                 <small className="client__review">{item.review}</small>
+                <a href={item.link}><BsLinkedin/></a>
               </div>
             </SwiperSlide>
             )
