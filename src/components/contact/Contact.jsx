@@ -37,7 +37,7 @@ const Contact = () => {
             <BsLinkedin className='contact__option-icon'/>
             <h4>Linkedin</h4>
             <h5>Rosa Moran Delgado</h5>
-            <a href="https://www.linkedin.com/messaging/thread/2-OTY3NTAzZDYtYjY5Ni00MGM4LTlhYTctMTM3Yjk0YjYzZjBiXzAxMg==/" target="_blank" rel="noreferrer">Send a message</a>
+            <a href="https://www.linkedin.com/in/rosa-moran-a2b9a1151" target="_blank" rel="noreferrer">Send a message</a>
           </article>
 
           {/* <article className="contact__option">
