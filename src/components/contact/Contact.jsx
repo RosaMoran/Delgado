@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import './contact.css';
 import { MdOutlineMailOutline } from 'react-icons/md';
 import { SiMessenger, SiWhatsapp } from 'react-icons/si';
@@ -55,7 +54,7 @@ const Contact = () => {
             <textarea name="message"  rows="7" placeholder='Your Message'></textarea>
             <button type='submit' className='btn btn-primary' >Send me</button>
           </form>
-          <a href="#" className="scroll__up">Scroll Up</a> 
+          <a href="/#" className="scroll__up">Scroll Up</a> 
         </div>
       </div>
     </section>

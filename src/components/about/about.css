@@ -63,6 +63,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
+    
 }
 
 .about__card{
@@ -72,6 +73,7 @@
     padding: 2rem;
     text-align: center;
     transition: var(--transition)
+    
 
 }
 

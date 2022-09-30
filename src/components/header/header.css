@@ -23,10 +23,10 @@ header{
 }
 @keyframes glow {
     from {
-      text-shadow: 1px 1px 80px #2d9da9;
+      text-shadow: 1px 1px 80px #56a92d;
     }
     to {
-      text-shadow: 0 0 30px #34b3c1, 0 0 10px #4dbbc7;
+      text-shadow: 0 0 30px #3dc134, 0 0 10px #58ee56;
     }
   }
 
@@ -55,7 +55,7 @@ header{
     content: '';
     width: 1px;
     height: 2rem;
-    background: #4db5ff;;
+    background: #7cff4d;;
 }
 
 /* ==== ME ===== */
