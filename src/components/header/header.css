@@ -61,7 +61,7 @@ header{
 /* ==== ME ===== */
 
 .mee{
-    background: linear-gradient(180deg, #4db5ff, rgba(0, 0, 0, 0.748)), transparent;
+    background: linear-gradient(180deg, #7cff4d, rgba(0, 0, 0, 0.748)), transparent;
     width: 18rem;
     position: absolute;
     left: calc(50% - 11rem);
