@@ -1,5 +1,5 @@
 import React from 'react'
-import {Header, Navbar,About, Experience, Services, Portfolio, References, Contact, Footer } from './components/index'
+import {Header, Navbar,About, Experience, Portfolio, References, Contact, Footer } from './components/index'
 
 
 const App = () => {
