@@ -1,9 +1,27 @@
-export { default as About } from './about/About'
-export { default as Contact } from './contact/Contact'
-export { default as Experience } from './experience/Experience'
-export { default as Footer } from './footer/Footer'
-export { default as Header } from './header/Header'
-export { default as Navbar } from './nav/Navbar'
-export { default as Portfolio } from './portfolio/Portfolio'
-export { default as Services } from './services/Services'
-export { default as References } from './references/references'
+import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas } from './canvas';
+import Hero from "./Hero";
+import Navbar from "./Navbar";
+import About from "./About";
+import Tech from "./Tech";
+import Experience from "./Experience";
+import Works from "./Works";
+import Feedbacks from "./Feedbacks";
+import Contact from "./Contact";
+import CanvasLoader from "./Loader";
+
+
+export {
+  Hero,
+  Navbar,
+  About,
+  Tech,
+  Experience,
+  Works,
+  Feedbacks,
+  Contact,
+  CanvasLoader,
+  EarthCanvas, 
+  BallCanvas, 
+  ComputersCanvas, 
+  StarsCanvas
+};
