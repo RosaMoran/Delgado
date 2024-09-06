@@ -15,7 +15,6 @@ import {
   drupal,
   aem,
   salesforce,
-  mailjet,
   wordpress,
 
   sprinbok,
@@ -34,12 +33,16 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "About me",
   },
   {
-    id: "work",
-    title: "Work",
-  }
+    id: "resume",
+    title: "Resume",
+  },
+  {
+    id: "feedbacks",
+    title: "Feedback",
+  },
 ];
 
 const services = [
@@ -48,17 +51,34 @@ const services = [
     icon: web,
   },
   {
+    title: "Frontend Developer",
+    icon: creator,
+  },
+  {
     title: "React Framework",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "HTML",
+    icon: html,
   },
   {
-    title: "Frontend Developer",
-    icon: creator,
+    title: "CSS",
+    icon: css,
   },
+  {
+    title: "Tailwind",
+    icon: tailwind,
+  },
+  {
+    title: "Javascript",
+    icon: javascript,
+  },
+  {
+    title: "Nodejs",
+    icon: nodejs,
+  },
+  
 ];
 
 const technologies = [
@@ -89,14 +109,6 @@ const technologies = [
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "Mailjet",
-    icon: mailjet,
   },
   
   {
@@ -129,37 +141,45 @@ const experiences = [
     iconBg: "#383E56",
     date: "April 2023 - May 2024",
     points: [
-      "Experience in CMS such as AEM, Drupal and wordpress",
-      "Maintaining and updating websites and e-commerces shop of client websites",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Maintained and optimized the company's product page for both B2B and B2C markets, ensuring peak functionality and performance.",
+      "Ensuring website functionality and performance by conducting regular maintenance and updates.",
+      "Led the ideation, design, and implementation of new content, using analytics and data-driven insights to optimize conversion rates and enhance user experience.",
+      "Experience with CMS such as AEM Cloud, Drupal, WordPress, and Shopify for high-profile clients, including Bridgestone, Daikin, Nissan, and Beko, ensuring seamless digital operations and content delivery.",
+      "Collaborating with cross-functional teams to identify and implement new website features and functionality.",
+      "Project management B2B and BC commerce platform and related specifications (rollouts and tests).",
+      "Executes assignments with the use of web applications, scripts, and programming languages such as HTML, CSS and JavaScript.",
     ],
   },
   {
-    title: "Sales and Marketing Assistan, Graphic designer & Community Manager",
+    title: "Sales and Marketing Assistant  Community Manager & Graphic designer",
     company_name: "Laboratorios Marceli",
     company_url:"https://investinelsalvador.gob.sv/directorio/laboratorios-marceli/",
     icon: marceli,
     iconBg: "#E6DEDD",
     date: "March 2017 - September 2019",
     points: [
-      "Sales report for salespersons, medical sales representatives and pharmacy pushers",
-      "Tracking and reporting KIPs",
-      "CRM planning and tracking",
-      "Support to sales and marketing manager and CEO",
+      "Assist the sales director with partner and end customer sales activity.",
+      "Following up sales and business development opportunities.",
+      "Updating the Company CRM with all activities.",
+      "Assist with the production of marketing materials and literature, such as website content, brochures, blog posts and press releases.",
+      "Upload material to the website, social media pages and Intuitive SharePoint.",
+      "Assisting other areas of the business such as pre-sales and technical services.",
     ],
   },
   {
-    title: "Customer Service Manager",
-    company_name: "Don Fidel-Shop",
+    title: "Sales and customer service",
+    company_name: "Don Fidel Shop",
     company_url:"",
     icon: donfidelshop,
     iconBg: "#383E56",
     date: "January 2015 - February 2017",
     points: [
-      "Store sales",
-      "Customer service",
-      "Give training & coaching to new collegue",
+      "Answers customers questions, resolves problems, and maintains customer satisfaction by providing problem-solving resources.",
+      "Prepare reports and draw insights.",
+      "Accomplishes customer service human resource objectives by recruiting, selecting, training, and coaching employees.",
+      "Help the business be more customer-focused.",
+      "Answers customer's questions about merchandise..",
+      "Identify customer needs and recommend solutions.",
     ],
   },
 ];
@@ -179,7 +199,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Rosa and I met at Hack Your Future Belgium Web-development training. I know her as a dedicated , organized and thorough student. She is also incredibly likeable person, who immediately makes you feel like you have know each other.",
+      "She is a person who is passionate about her goals and her work. Rosa is an excellent example of going the extra mile, responsible, and highly proactive.",
     name: "Karla Acosta",
     designation: "Channel Coordinator",
     company: "C. Imberton, SA de CV",
