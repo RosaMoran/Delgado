@@ -41,7 +41,7 @@ export const navLinks = [
   },
   {
     id: "feedbacks",
-    title: "Feedback",
+    title: "Feedbcks",
   },
 ];
 
@@ -59,24 +59,8 @@ const services = [
     icon: mobile,
   },
   {
-    title: "HTML",
-    icon: html,
-  },
-  {
-    title: "CSS",
-    icon: css,
-  },
-  {
-    title: "Tailwind",
-    icon: tailwind,
-  },
-  {
-    title: "Javascript",
-    icon: javascript,
-  },
-  {
-    title: "Nodejs",
-    icon: nodejs,
+    title: "Backend",
+    icon: backend,
   },
   
 ];
