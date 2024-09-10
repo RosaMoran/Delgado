@@ -32,6 +32,8 @@ import linkeding from "./testimonials/linkeding.png";
 import carrent from "./carrent.png"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import daikin from "./daikin.jpg";
+import beko from "./beko.jpg"
 
 export {
   logo,
@@ -67,4 +69,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  daikin,
+  beko,
 };

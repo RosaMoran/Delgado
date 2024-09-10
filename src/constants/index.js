@@ -28,6 +28,9 @@ import {
   carrent,
   jobit,
   tripguide,
+  daikin,
+  beko,
+
 } from "../assets";
 
 export const navLinks = [
@@ -41,7 +44,7 @@ export const navLinks = [
   },
   {
     id: "feedbacks",
-    title: "Feedbcks",
+    title: "Feedback",
   },
 ];
 
@@ -197,6 +200,48 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Daikin",
+    description:
+      "As a Webmaster at Daikin, I managed website maintenance, resolved technical issues, and contributed to B2B and B2C projects. I also played a role in developing an email slicing component and setup.",
+    tags: [
+      {
+        name: "AEM",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML/CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Salesforce cloud",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: daikin,
+    source_code_link: "https://www.daikin.eu/",
+  },
+  {
+    name: "Beko",
+    description:
+      "At Beko, I developed marketing campaigns, utilizing HTML and CSS for web design and leveraging Photoshop for graphic design. My contributions helped create engaging and visually appealing campaigns that supported the company's marketing goals.",
+    tags: [
+      {
+        name: "AEM",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML/CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Photoshop",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: beko,
+    source_code_link: "https://www.beko.com/be-nl/campagnes",
+  },
+  {
     name: "Modern Web3",
     description:
       "A web application for UI and UX, built in React.js using functional components and emphasizing reusability. The project features a well-organized file and folder structure in React, with a strong foundation in CSS properties to master Flexbox and Grid layouts.",
@@ -231,7 +276,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "bootstrap",
+        name: "bootstrap v5.0",
         color: "pink-text-gradient",
       },
     ],
